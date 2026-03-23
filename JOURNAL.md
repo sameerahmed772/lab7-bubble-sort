@@ -179,3 +179,14 @@
 - **Hook Version**: 1.02
 - **Date**: 23-03-2026 14:50
 - **Prompt**: Replace main.py with a clean stub-and-TODO version for in-place redraw (no full implementation).
+
+### **New Interaction**
+- **Agent Version**: 2.2
+- **Date**: 23-03-2026 14:50
+- **User**: redowan-ahmed.sameer@epita.fr
+- **Prompt**: Replace main.py with a clean stub-and-TODO version for in-place redraw (no full implementation).
+- **CoPilot Mode**: Edit
+- **CoPilot Model**: GPT-5.3-Codex
+- **Socratic Mode**: ON
+- **Changes Made**: Replaced main.py with a clean learning scaffold of stub functions and TODOs for Bubble Sort and in-place terminal redraw, removing full implementation logic.
+- **Context and Reasons for Changes**: User explicitly requested a stub-and-TODO-only version for guided implementation.
