@@ -110,3 +110,19 @@
 - **Hook Version**: 1.02
 - **Date**: 23-03-2026 14:36
 - **Prompt**: Can you set up testing for this app, using basic pytest features and create 5 tests?
+### **New Interaction**
+- **Agent Version**: 2.2
+- **Date**: 23-03-2026 14:39
+- **User**: redowan-ahmed.sameer@epita.fr
+- **Prompt**: Can you set up testing for this app, using basic pytest features and create 5 tests?
+- **CoPilot Mode**: Edit
+- **CoPilot Model**: GPT-5.3-Codex
+- **Socratic Mode**: ON
+- **Changes Made**: Added pytest setup (pytest.ini), created tests/test_main.py with 5 tests using basic pytest features, created project .venv, and verified tests pass.
+- **Context and Reasons for Changes**: User requested a testing setup and five tests for the bubble sort app.
+
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 23-03-2026 14:39
+- **Prompt**: Can you create or update README.md for this project?
