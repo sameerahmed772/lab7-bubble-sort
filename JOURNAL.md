@@ -192,6 +192,28 @@
 - **Context and Reasons for Changes**: User explicitly requested a stub-and-TODO-only version for guided implementation.
 
 ### **New Interaction**
+- **Agent Version**: 2.2
+- **Date**: 23-03-2026 14:54
+- **User**: redowan-ahmed.sameer@epita.fr
+- **Prompt**: Can you tell if the code is messy?
+- **CoPilot Mode**: Ask
+- **CoPilot Model**: GPT-5.3-Codex
+- **Socratic Mode**: ON
+- **Changes Made**: No code changes; performed review and identified a syntax blocker plus consistency issues.
+- **Context and Reasons for Changes**: User asked for a code quality assessment.
+
+### **New Interaction**
+- **Agent Version**: 2.2
+- **Date**: 23-03-2026 14:56
+- **User**: redowan-ahmed.sameer@epita.fr
+- **Prompt**: Can you clean up the code and update the documentation?
+- **CoPilot Mode**: Edit
+- **CoPilot Model**: GPT-5.3-Codex
+- **Socratic Mode**: ON
+- **Changes Made**: Cleaned main.py (fixed syntax bug, normalized docstrings, simplified boolean logic, aligned error message with tests) and updated README.md to document animated mode and terminal behavior.
+- **Context and Reasons for Changes**: User requested cleanup and documentation updates consistent with current implementation.
+
+### **New Interaction**
 - **Hook Version**: 1.02
 - **Date**: 23-03-2026 14:55
 - **Prompt**: Can you tell if the code is messy?

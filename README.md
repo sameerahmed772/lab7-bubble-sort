@@ -1,13 +1,15 @@
 # Lab 7: Bubble Sort Application
 
-This repository contains a beginner-friendly Bubble Sort command-line app in Python.
-The project is organized for learning: clear function boundaries, comments, and tests.
+This repository contains a Bubble Sort command-line app in Python with two modes:
+- standard sorting output
+- animated in-place terminal visualization
 
 ## What This Project Covers
 
 - Parsing comma-separated user input into integers
 - Running Bubble Sort one pass at a time
 - Full Bubble Sort with early-stop optimization
+- In-place ASCII visualization in the terminal using ANSI redraw
 - Defensive input handling for invalid values
 - Basic automated testing with pytest
 
@@ -35,7 +37,7 @@ If you are using the local virtual environment:
 .venv/bin/python main.py
 ```
 
-Example interaction:
+Example interaction (standard mode):
 
 ```text
 Enter numbers separated by commas (e.g., 5, 2, 9, 1): 10, 5, 8, 1, 7
@@ -43,6 +45,24 @@ Enter numbers separated by commas (e.g., 5, 2, 9, 1): 10, 5, 8, 1, 7
 Original list: [10, 5, 8, 1, 7]
 Sorted list:   [1, 5, 7, 8, 10]
 ```
+
+Example interaction (animated mode):
+
+```text
+Enter numbers separated by commas (e.g., 5, 2, 9, 1): 10, 5, 8, 1, 7
+Would you like to run the animated mode? (y/n): y
+
+Starting Animation...
+...in-place bar redraw frames...
+Sorting Complete!
+
+Original list: [10, 5, 8, 1, 7]
+Sorted list:   [1, 5, 7, 8, 10]
+```
+
+Note:
+- In-place redraw works best in ANSI-capable interactive terminals.
+- If a terminal does not support ANSI cursor movement, output may look less clean.
 
 ## Testing
 
@@ -56,7 +76,7 @@ Current test suite includes 5 tests in `tests/test_main.py`.
 
 ## Project Structure
 
-- `main.py`: Bubble Sort app and helper functions
+- `main.py`: Bubble Sort app, CLI flow, and animation helpers
 - `tests/test_main.py`: pytest test cases
 - `pytest.ini`: pytest discovery configuration
 - `REPORT.md`: project report
