@@ -126,3 +126,14 @@
 - **Hook Version**: 1.02
 - **Date**: 23-03-2026 14:39
 - **Prompt**: Can you create or update README.md for this project?
+### **New Interaction**
+- **Agent Version**: 2.2
+- **Date**: 23-03-2026 14:41
+- **User**: redowan-ahmed.sameer@epita.fr
+- **Prompt**: Can you create or update README.md for this project?
+- **CoPilot Mode**: Edit
+- **CoPilot Model**: GPT-5.3-Codex
+- **Socratic Mode**: ON
+- **Changes Made**: Updated README.md to match the current project files, corrected run commands, added testing instructions, and documented project structure.
+- **Context and Reasons for Changes**: User requested a README creation/update; existing file referenced outdated script names and lacked current setup details.
+
