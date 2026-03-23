@@ -137,3 +137,8 @@
 - **Changes Made**: Updated README.md to match the current project files, corrected run commands, added testing instructions, and documented project structure.
 - **Context and Reasons for Changes**: User requested a README creation/update; existing file referenced outdated script names and lacked current setup details.
 
+
+### **New Interaction**
+- **Hook Version**: 1.02
+- **Date**: 23-03-2026 14:44
+- **Prompt**: I would like to visualize sorting as it is happening. First, i would like to explore a terminal based approach. What do you suggest?
