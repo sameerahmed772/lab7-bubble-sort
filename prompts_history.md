@@ -20,3 +20,6 @@ Automatically captured prompt log. Entries are appended in chronological order (
 ### 23-03-2026 14:27
 - **Prompt**: Can you help me learn by writing a skeleton bubble sort app with stubs functions, with comments and TODOs that will indicate what i need to do?
 
+### 23-03-2026 14:31
+- **Prompt**: What do you think of my implimentation?
+
